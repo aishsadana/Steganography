@@ -1,0 +1,49 @@
+body{
+  background-color:#ffe6b3;
+  border-style: groove;
+  border-color: coral;
+  border-width: 7px;
+  color:#664400;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+canvas{
+  border:2px solid coral;
+  width:90%;
+  height:350px;
+}
+.subDiv{
+  float:left;
+  width:33%;
+  padding:0.15%;
+}
+.subDiv2{
+  float:left;
+  margin-left:17%;
+  width:33%;
+  padding:0.15%;
+}
+.mainDiv{
+  background-color:#ffd480;
+  margin:auto;
+  margin-top:4%;
+  margin-bottom:4%;
+  width:98%;
+  height:100%;
+  overflow:hidden;
+  clear:both;
+  border-style:dotted;
+  border-color: coral;
+  border-width: 7px;
+  border-radius:30px;
+}
+input{
+  background-color:coral;
+  color:#332200;
+  padding:5px;
+  border:none;
+  border-radius:20px;
+}
+.button_style:focus{
+  background-color:#ff6933;
+  outline:none;
+}
